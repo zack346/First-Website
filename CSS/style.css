@@ -1,0 +1,296 @@
+/* Custom Styles */
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.carousel-item img {
+    height: 50vh;
+    object-fit: cover;
+}
+
+h1.display-4 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+p.lead {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+/* Register styles */
+form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form .btn {
+    background-color: #e67e22;
+    border: none;
+}
+
+form .btn:hover {
+    background-color: #d35400;
+}
+
+/* Login Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form .btn {
+    background-color: #e67e22;
+    border: none;
+}
+
+form .btn:hover {
+    background-color: #d35400;
+}
+
+a.text-success {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+a.text-success:hover {
+    text-decoration: underline;
+}
+/* About Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px #34495e;
+}
+
+.form-label {
+    font-size: 20px;
+}
+
+.btn-warning {
+    background-color: #e67e22;
+    color: white;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-warning:hover {
+    background-color: #d35400;
+}
+
+.rounded-pill {
+    border-radius: 50px;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px #34495e;
+}
+
+/* gallery */
+ * {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.carousel-inner img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+h1.display-1 {
+    font-weight: bold;
+}
+
+h2.card-title {
+    font-weight: bold;
+}
+
+.btn-warning {
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.btn-warning:hover {
+    background-color: #cc8500;
+    transform: scale(1.05);
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.btn-success {
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+.text-success:hover {
+    text-decoration: underline;
+}
+
+hr.bg-light {
+    opacity: 0.1;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}

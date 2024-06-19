@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="CSS/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body class="bg-dark text-light">
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-success py-3">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">BSFo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>        <li class="nav-item">
+          <a class="nav-link" href="about.html">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactus.html">CONTACT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">REGISTER</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">LOGIN</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">GALLERY</a>
+        </li>
+      </ul>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-dark" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<hr>
+
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <h2 class="text-center mb-4">Register</h2>
+      <form>
+        <div class="mb-3">
+          <label for="firstName" class="form-label">First Name</label>
+          <input type="text" class="form-control" id="firstName" required placeholder="Enter your first name">
+        </div>
+        <div class="mb-3">
+          <label for="lastName" class="form-label">Last Name</label>
+          <input type="text" class="form-control" id="lastName" required placeholder="Enter your last name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required placeholder="Enter your email">
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control" id="password" required placeholder="Enter your password">
+        </div>
+        <button type="submit" class="btn btn-success w-100">Register</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="CSS/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
